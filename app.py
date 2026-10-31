@@ -8,4 +8,4 @@ dados = requests.get(url)
 
 resposta = dados.json()
 
-print = (f"voce mora em {resposta["localidade"]}, no bairro {resposta["bairro"]}")
+print = (f"voce mora em {resposta["localidade"]}, no bairro {resposta["bairo"]}")
